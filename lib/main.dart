@@ -1,3 +1,4 @@
+import 'package:ecommerceapp/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -5,7 +6,7 @@ void main() {
 }
 
 class MyApp extends StatefulWidget {
-  const MyApp({Key? key}) : super(key: key);
+  // const MyApp({Key? key}) : super(key: key);
 
   @override
   _MyAppState createState() => _MyAppState();
@@ -14,12 +15,15 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
+   
+    // double pi = 3.14;
+    // bool isMale = true;
+    // num temp = 30.5;
+    // var day = "Tuesday";
+    
+
     return MaterialApp(
-        home: Material(
-            child: Center(
-      child: Container(
-        child: Text("Hello"),
-      ),
-    )));
+        home: HomePage(),
+    );
   }
 }
